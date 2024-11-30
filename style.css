@@ -1,0 +1,22 @@
+h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 90px;
+  padding: 70px 0px 0px 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30px;
+  padding: 0px 0px 0px 50px;
+  text-align: center;
+}
+.contact-me-button a {
+  margin: 40px 0px 40px 40px;
+  padding: 10px 40px;
+  border-radius: 35px;
+}
