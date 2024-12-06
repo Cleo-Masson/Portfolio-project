@@ -6,15 +6,16 @@
 }
 .featured-projects {
   text-align: center;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
   padding: 40px;
-  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
 }
+
 .container-grid {
   background-color: #efeeee;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border-radius: 60px;
 }
 h1 {
   font-family: "Inter", sans-serif;
