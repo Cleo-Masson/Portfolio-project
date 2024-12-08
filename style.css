@@ -34,8 +34,36 @@ h2 {
   padding: 0px 0px 0px 50px;
   text-align: center;
 }
+
 .contact-me-button a {
   margin: 40px 0px 40px 40px;
   padding: 10px 40px;
   border-radius: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.launch-button a {
+  margin: 40px 0px 40px 40px;
+  padding: 10px 40px;
+  border-radius: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+@media (max-width: 600px) {
+  .hero {
+    padding: 30px;
+    display: block;
+  }
+  .hero h1 {
+    font-size: 80px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  .hero h2 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .contact-me-button a {
+    padding: 10px 20px;
+  }
 }
