@@ -7,7 +7,8 @@
 .about-section {
   padding: 160px;
 }
-.about-section-content {
+.about-section-content h1,
+p {
   text-align: left;
 }
 .about-section-content h1 {
@@ -22,8 +23,8 @@
   font-style: normal;
   font-size: 18px;
   margin-top: 30px;
-
   padding: 0;
+  text-align: left;
 }
 .about-section-content p {
   font-family: "Poppins", sans-serif;
