@@ -4,6 +4,35 @@
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
+.about-section {
+  padding: 160px;
+}
+.about-section-content {
+  text-align: left;
+}
+.about-section-content h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+}
+.about-section-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 18px;
+  margin-top: 30px;
+
+  padding: 0;
+}
+.about-section-content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
 .featured-projects {
   text-align: center;
   padding: 40px;
@@ -58,9 +87,17 @@ h2 {
     margin-top: 25px;
     text-align: center;
   }
+  .about-section {
+    padding: 0 30px;
+  }
+  .about-section-content {
+    text-align: center;
+  }
   .hero h2 {
     font-size: 15px;
-    text-align: center;
+  }
+  h1 {
+    font-size: 20px;
   }
   .contact-me-button a {
     padding: 10px 20px;
