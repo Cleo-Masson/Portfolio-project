@@ -4,20 +4,18 @@
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
-.about-section {
+.content-container {
   padding: 160px;
 }
-.about-section-content h1,
-p {
-  text-align: left;
-}
-.about-section-content h1 {
+
+.content h1 {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 60px;
+  text-align: left;
 }
-.about-section-content h2 {
+.content h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -26,14 +24,21 @@ p {
   padding: 0;
   text-align: left;
 }
-.about-section-content p {
+.content p {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 15px;
   margin-top: 30px;
+  text-align: left;
 }
-
+.see-projects-button {
+  margin: 7px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
 .featured-projects {
   text-align: center;
   padding: 40px;
@@ -66,14 +71,14 @@ h2 {
 
 .contact-me-button a {
   margin: 40px 0px 40px 40px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 35px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 .launch-button a {
   margin: 40px 0px 40px 40px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   border-radius: 35px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -88,12 +93,17 @@ h2 {
     margin-top: 25px;
     text-align: center;
   }
-  .about-section {
-    padding: 0 30px;
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
   }
-  .about-section-content {
+
+  .content {
     text-align: center;
   }
+
   .hero h2 {
     font-size: 15px;
   }
