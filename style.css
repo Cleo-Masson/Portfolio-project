@@ -148,7 +148,7 @@ footer .social-links a {
     text-align: center;
   }
   .content h1 {
-    font-size: 40px;
+    font-size: 26px;
     text-align: center;
     margin: 0;
     padding: 30px;
@@ -167,9 +167,13 @@ footer .social-links a {
     margin: 10px 20px 10px 20px;
     text-align: center;
   }
-  .contact h2,
-  p {
-    text-align: center;
+  .contact p {
+    font-size: 14px;
+  }
+
+  .contact h2 {
+    padding: 10px;
+    font-size: 18px;
   }
   .contact-container h1 {
     font-size: 30px;
