@@ -100,13 +100,12 @@ footer .contact-container {
   font-size: 60px;
 }
 .content-container h1 {
-  text-align: left;
   font-family: "Inter", sans-serif;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 45px;
   font-style: normal;
   padding: 0;
-  margin: 90px 0 40px 90px;
+  margin: 40px 0 40px 0px;
 }
 .contact h2 {
   text-align: left;
@@ -148,7 +147,7 @@ footer .social-links a {
     text-align: center;
   }
   .content h1 {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     margin: 0;
     padding: 30px;
